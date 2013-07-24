@@ -15,10 +15,7 @@ vendor/firmware/libpn544_fw.so
 # Radio
 lib/libhtc_rilhook.so
 lib/libril.so
-<<<<<<< HEAD
 bin/rild
-=======
->>>>>>> 984219c... jewel: update to use HTCCDMAQualcommRIL class.
 
 # Sensors
 lib/hw/sensors.default.so
