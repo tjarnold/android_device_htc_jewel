@@ -24,6 +24,9 @@
 # variant, so that it gets overwritten by the parent (which goes
 # against the traditional rules of inheritance).
 
+TARGET_GCC_VERSION := 4.8
+TARGET_USE_LINARO_STRING_ROUTINES := true
+
 # inherit from S4 common
 -include device/htc/s4-common/BoardConfigCommon.mk
 
